@@ -34,6 +34,10 @@ Abre seu navegador e digite ```localhost/CadLogin-System```
 - **Tela de Login:** Permite que o usuário faça login no sistema com seu e-mail e senha.
 - **Tela de Registro:** Permite que novos usuários se cadastrem e escolham seu perfil (Admin, Gestor ou Colaborador).
 
+### GESTOR / ADM
+-**Possível fazer gerenciamento de usuários, além de executar auterações no sistema de contas**
+Quando admin ou gestor, pode entrar em tela de edição de informações cadastradas pelos usuários.
+
 ## **Estrutura do Sistema**
 
 O sistema é organizado de forma a separar as funções em três partes principais:
@@ -59,6 +63,12 @@ O projeto está dividido em diferentes arquivos e pastas que organizam seu funci
 **index.php:** Ponto de entrada do sistema.
 
 **routes.php:** Define as rotas e ações a serem executadas no sistema.
+
+**list_user.php** Mostra lista de usuários cadastrados no sistema.
+
+**edit_user.php** Lista para edição de informações, presente apenas para admin e gestor.
+
+**dashboard.php** Mostra qual tipo de usuário é.
 
 ```
     C:.
