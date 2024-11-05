@@ -43,14 +43,18 @@ class UserController
                 ];
 
                 User::update($id, $data);
-                header('Location: index.php?action=list');
-            } else{
-                include 'views/edit_user.php';
+                header("Location: index.php?action=list");
+            } else {
+                include "views/edit_user.php";
             }
-        }else{
+        } else {
+            echo "Você não tem permissão para editar usuários";
         }
     }
-
+    public function delete($id){
+        User::delete($id);
+        header('Location: index.php?action=list');
+    }
 }
 
 ?>
