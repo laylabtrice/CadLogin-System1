@@ -38,6 +38,9 @@ Abre seu navegador e digite ```localhost/CadLogin-System```
 -**Possível fazer gerenciamento de usuários, além de executar auterações no sistema de contas**
 Quando admin ou gestor, pode entrar em tela de edição de informações cadastradas pelos usuários.
 
+-**Admin possui função para deletar usuários**
+Apenas o user Admin pode executar essa função dentro do sistema, podendo deletar usuários do mesmo.
+
 ## **Estrutura do Sistema**
 
 O sistema é organizado de forma a separar as funções em três partes principais:
