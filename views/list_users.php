@@ -52,7 +52,7 @@
             </tbody>
         </table>
  
-        <a href="" class="btn">Voltar ao Dashboard</a>
+        <a href="index.php?action=dashboard" class="btn">Voltar ao Dashboard</a>
         </div>
 </body>
 </html>
