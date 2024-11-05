@@ -28,14 +28,13 @@ class UserController
         include "views/list_users.php";
     }
 
-    public function edit($id){
+    public function edit($id) {
         session_start();
 
-        if($_SESSION['perfil'] == 'admin' || $_SESSION['perfil' == 'gestor']){
-            
+        if ($_SESSION["perfil"] == "admin" || $_SESSION["perfil"] == "gestor") {
             $user = User::find($id);
 
-            if($_SERVER['REQUEST_METHOD'] == 'POST'){
+            if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $data = [
                     "nome"   => $_POST["nome"],
                     "email"  => $_POST["email"],
