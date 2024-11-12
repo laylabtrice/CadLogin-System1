@@ -72,6 +72,12 @@ Edição de usuários, função apenas para Gestor e Admin
 
 **Registro:** Novos usuários podem se cadastrar, inserindo nome, e-mail, senha e escolhendo o perfil.
 
+**Lista de Usuários:** Lista de usuários presentes no sistema, pode ser visualizado por Gestor e Admin apenas.
+
+**Edição de Usuários:** Função de editar informações cadastrais de usuário, tais como: Nome, Email e Tipo de Perfil.
+
+**Excluir Usuários:** Apenas Admin pode executar essa função, podendo excluir usuários cadastrados no sistema.
+
 ## **Organização do Projeto**
 
 O projeto está dividido em diferentes arquivos e pastas que organizam seu funcionamento:
