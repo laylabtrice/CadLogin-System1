@@ -17,7 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #e0f7fa;
+    background-color: #ecd0e2;
     padding: 20px;
 }
 
@@ -44,7 +44,7 @@ label {
 input, select {
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #90caf9;
+    border: 1px solid #fae0f6;
     border-radius: 4px;
     font-size: 14px;
     color: #333;
@@ -55,7 +55,7 @@ input::placeholder {
 }
 
 button {
-    background-color: #81d4fa;
+    background-color: #d34ff7;
     color: white;
     padding: 10px;
     border: none;
@@ -66,13 +66,13 @@ button {
 }
 
 button:hover {
-    background-color: #4fc3f7;
+    background-color: #d34ff7;
 }
 
 a {
     text-align: center;
     margin-top: 10px;
-    color: #0288d1;
+    color: #e92cf6;
     text-decoration: none;
 }
 
