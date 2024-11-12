@@ -6,12 +6,13 @@ O Sistema de Cadastro de Usuários permite o registro e login de usuários com t
 ## Índice
 1. [Instalação do Projeto](#instalação-do-projeto)
 2. [Funcionalidades Principais](#funcionalidades-principais)
-3. [Estrutura do Sistama](#estrutura-do-sistema)
-4. [Fluxo Básico do Sistema](#fluxo-básico-do-sistema)
-5. [Organização do Projeto](#organização-do-projeto)
-6. [Arquitetura da Base de Dados](#arquitetura-da-base-de-dados)
-7. [Fontes para Pesquisa](#fontes-para-pesquisa)
-8. [Créditos](#créditos)
+3. [Estrutura do Sistema](#estrutura-do-sistema)
+4. [Telas](#telas)
+5. [Fluxo Básico do Sistema](#fluxo-básico-do-sistema)
+6. [Organização do Projeto](#organização-do-projeto)
+7. [Arquitetura da Base de Dados](#arquitetura-da-base-de-dados)
+8. [Fontes para Pesquisa](#fontes-para-pesquisa)
+9. [Créditos](#créditos)
 
 ## **Instalação do Projeto:**
 
@@ -50,6 +51,13 @@ O sistema é organizado de forma a separar as funções em três partes principa
 **Modelos:** Cuidam da interação com o banco de dados.
 
 **Visões:** As telas que os usuários veem e interagem.
+
+## **Telas**
+
+**Cadastro usuário**
+![]()
+
+
 
 ## **Fluxo Básico do Sistema**
 
