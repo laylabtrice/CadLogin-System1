@@ -1,6 +1,6 @@
 <?php
     session_start();
-    if(isset($_SESSION['perfil']));
+    if(isset($_SESSION['perfil'])):
 ?>
  
 <!DOCTYPE html>
@@ -56,4 +56,10 @@
         </div>
 </body>
 </html>
+
+</html>
+
+<?php else: ?>
+    <p>Erro: Você não tem permissão para visualizar essa página</p>
+<?php endif; ?>
  
