@@ -42,25 +42,24 @@ class User
 
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
-    
-    public static function update($id, $data){
+
+    public static function update($id, $data) {
         $conn = Database::getConnection();
 
-        // Prepara consulta SQL pata atualizar os dados do usuário
+        // Prepara a consulta SQL para atualização dos dados do usuário
         $stmt = $conn->prepare("UPDATE usuarios SET nome = :nome, email = :email, perfil = :perfil WHERE id = :id");
 
-        $data['id'] = $id;
+        $data["id"] = $id;
 
         $stmt->execute($data);
     }
 
-    //Função para exclusão de user por ID
-    public static function delete($id){
+    // Função para exclusão de usuário pelo ID
+    public static function delete($id) {
         $conn = Database::getConnection();
-        $stmt = $conn->prepare('DELETE FROM usuarios WHERE id =id');
-        $stmt->execute(['id' => $id]);
+        $stmt = $conn->prepare("DELETE FROM usuarios WHERE id = :id");
+        $stmt->execute(["id" => $id]);
     }
-
 }
 
 ?>
