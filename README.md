@@ -55,8 +55,11 @@ O sistema é organizado de forma a separar as funções em três partes principa
 ## **Telas**
 
 **Cadastro usuário**
-![Cad User]()
+![Cad User](https://github.com/laylabtrice/CadLogin-System1/blob/master/img/cad.png)
+Tela de cadastro para usuários novos.
 
+**Login usuário**
+![Login User](https://github.com/laylabtrice/CadLogin-System1/blob/master/img/login.png)
 
 
 ## **Fluxo Básico do Sistema**
