@@ -60,7 +60,11 @@ Tela de cadastro para usuários novos.
 
 **Login usuário**
 ![Login User](https://github.com/laylabtrice/CadLogin-System1/blob/master/img/login.png)
+Login para usuários já cadastrados no sistema.
 
+**Edição de usuário**
+![Edit User](https://github.com/laylabtrice/CadLogin-System1/blob/master/img/edituser.png)
+Edição de usuários, função apenas para Gestor e Admin
 
 ## **Fluxo Básico do Sistema**
 
