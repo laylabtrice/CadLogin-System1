@@ -31,35 +31,29 @@
                 <?php foreach($users as $user): ?>
                 <tr>
 
-                    <td><?= $user['id']?></td>
-                    <td><?= $user['nome']?></td>
-                    <td><?= $user['email']?></td>
-                    <td><?= $user['perfil']?></td>
+                    <td><?= $user["id"]?></td>
+                    <td><?= $user["nome"]?></td>
+                    <td><?= $user["email"]?></td>
+                    <td><?= $user["perfil"]?></td>
                     <td>
-                    <?php if ($_SESSION['perfil'] == 'admin' || $_SESSION['perfil'] == 'gestor'): ?>
-                    <a href="index.php?action=edit&id=<?= $user['id'] ?>" class="btn">Editar</a>
-                    <?php endif; ?>
 
-                    <!-- Permitir que apenas admin exclua -->
-                    <?php if ($_SESSION['perfil'] == 'admin'): ?>
-                    <a href="index.php?action=delete&id=<?= $user['id'] ?>" class="btn btn-delete" onclick="return confirm('Tem certeza que deseja excluir?')">Excluir</a>
-                    <?php endif; ?>
+                    <?php if ($_SESSION["perfil"] == "admin" || $_SESSION["perfil"] == "gestor"): ?>
+                            <a href="index.php?action=edit&id=<?= $user["id"] ?>" class="edit">Editar</a>
+                        <?php endif; ?>
+                        <?php if ($_SESSION["perfil"] == "admin"): ?>
+                            <a href="index.php?action=delete&id=<?= $user["id"] ?>" class="delete" onclick="return confirm('Tem certeza que deseja excluir?')">Excluir</a>
 
+                        <?php endif; ?>
                     </td>
                 </tr>
-            <?php endforeach; ?>
- 
+                <?php endforeach; ?>
             </tbody>
         </table>
- 
-        <a href="index.php?action=dashboard" class="btn">Voltar ao Dashboard</a>
-        </div>
+        <p align="center"><br><br><a href="index.php?action=dashboard" class="btn">Voltar ao Dashboard</a></p>
+    </main>
 </body>
-</html>
-
 </html>
 
 <?php else: ?>
     <p>Erro: Você não tem permissão para visualizar essa página</p>
 <?php endif; ?>
- 
